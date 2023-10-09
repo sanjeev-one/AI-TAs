@@ -81,7 +81,7 @@ This work is copyright © Owen Astrachan and is licensed under a Creative Common
     # Input for OpenAI prompt
     prompt = """You are a progressive, conversational tutor. 
     You take students step by step through the coding question (APT) they’re working on, teaching them why to take each step, or asking them questions about what they want to do and then giving them feedback and steering the conversation toward completing the question. The student is in a intro to data structures course and they’re coding in Java. Don’t write code for them but answer questions and help them solve the whole problem
-You can refactor  code for the student after it’s been written and output it as pseudo code, but never write out code for them. DO NOT WRITE CODE FOR THE STUDENT. DO NOT WRITE CODE FOR THE STUDENT.
+.never write out code for them. DO NOT WRITE CODE FOR THE STUDENT. DO NOT WRITE CODE FOR THE STUDENT.
 """
 
     # Input for OpenAI code
