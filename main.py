@@ -3,9 +3,7 @@ import openai
 import os
 
 # Set your OpenAI API key
-from dotenv import load_dotenv
 
-load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 conversation = []
